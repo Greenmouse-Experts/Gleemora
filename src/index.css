@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700&family=Mulish:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+
+
+:root {
+    --background: #FFF8F9;
+    --black: #0D0D0D;
+    --text: linear-gradient(89deg, #F54B64 4.42%, #F78361 99.6%);
+    --font: 'Comfortaa', cursive;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.padding{
+    padding: 3rem 8%;
+}
+.button_link{
+        border-radius: 72px;
+    background: linear-gradient(89deg, #F54B64 4.42%, #F78361 99.6%);
+        padding: 1.4rem 1rem;
+        font-size: 1.1rem;
+        font-family: var(--font);
+        color: white;
+        width: fit-content;
+    }
+
+*{
+    margin: 0;   
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  
+  }
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 3rem;
+}
